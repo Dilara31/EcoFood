@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -49,26 +48,15 @@
 
         <main>
             <button id="goBackButton" class="button">Go Back</button>
-            <section id="product">
-                <h3 id="product-name"></h3>
-                <img id="product-img"/>
-                <article>
-                    <p>Base price $5.00</p>
-                    <p>Base price for variant $5.00</p>
-                    <p><b><big>Sales price</big></b></p>
-                    <p><b><big>$4.75</big></b></p>
-                    <button class="button">Add to Cart</button>
-                </article>
-            </section>
-            <section>
-                <h3>REVIEWS</h3>
-                <hr>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique beatae
-                    tempora magnam enim ullam qui quidem quam mollitia,
-                    dolor iste, eius voluptatem eligendi saepe. Ratione ipsum quaerat sunt atque
-                    provident.
-                </p>
-            </section>
+            <form class="logIn" action="#">
+                <label for="userName">User name *</label>
+                <input type="text" id="userName" name="userName" placeholder="User name" required/>
+                <label for="password">Password *</label>
+                <input type="password" id="password" name="password" required/>
+                <label for="rememberMe">Remember me</label>
+                <input type="checkbox">
+                <input type="submit" class="button" value="Log in">
+            </form>
         </main>
 
         <footer>
